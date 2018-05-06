@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1525460961342
+Build-Jdk: 1.8.0_171
+Built-By: root
+Bundle-Description: An example for Kafka
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-kafka
+Bundle-SymbolicName: camel-example-kafka
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.22.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Implementation-Title: Camel :: Example :: Kafka
+Implementation-URL: http://camel.apache.org/camel-parent/examples/camel-
+ example-kafka
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.camel.example
+Implementation-Version: 2.22.0-SNAPSHOT
+Import-Package: org.apache.camel;version="[2.22,2.23)",org.apache.camel.
+ builder;version="[2.22,2.23)",org.apache.camel.component.kafka;version=
+ "[2.22,2.23)",org.apache.camel.component.properties;version="[2.22,2.23
+ )",org.apache.camel.impl;version="[2.22,2.23)",org.apache.camel.model;v
+ ersion="[2.22,2.23)",org.slf4j;version="[1.7,2)",org.apache.kafka.clien
+ ts.producer,org.apache.kafka.common,org.osgi.framework;version="[1.5,2)
+ ",org.osgi.framework.wiring;version="[1.0,2)"
+Karaf-Info: Camel;camel-example-kafka=2.22.0-SNAPSHOT
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Camel :: Example :: Kafka
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 2.22.0-SNAPSHOT
+Tool: Bnd-3.5.0.201709291849
